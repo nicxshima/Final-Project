@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "ori_3783862_c90a1dll4j1ywxlkw7z2zzvh9dglsov3qivjph55_monstera-leaf.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
