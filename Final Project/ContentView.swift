@@ -39,6 +39,19 @@ struct ContentView: View {
                         .padding()
                     Button("Submit Name"){
                     textTitle = "Welcome, \(name)!"
+                    /*
+                    Once user submits button, it takes them to "home_nav" view
+                    Reference: https://www.youtube.com/watch?v=vQ0HhIerTsw
+                    */
+
+                    let window = UIApplication
+                        .shared
+                        .connectedScenes
+                        .flatMap { ($0 as? UIWindowScene)?.windows ?? [] }
+                        .first { $0.isKeyWindow }
+
+                        window?.rootViewController = UIHostingController(rootView: home_nav())
+                            window?.makeKeyAndVisible()
                     }
                     .buttonStyle(.bordered)
             }
