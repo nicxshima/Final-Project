@@ -9,28 +9,42 @@ struct q2: View {
                 Text("What are your main skin concerns?")
                     .font(.title)
                     .multilineTextAlignment(.center)
-                    .offset(y: -240)
+                    .offset(y: -200)
                     .padding()
                 
                 NavigationLink(destination: q2()) {
                     Text("Dry")
+                        .font(.body)
+                        .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
-                            .buttonStyle(.bordered)
-                     
+                        .offset(y: -30)
                         
                 }
                 .frame(height : 10)
                 NavigationLink(destination: q2()) {
                     Text("Normal")
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .offset(y: -10)
+                        
                 }
                 NavigationLink(destination: q2()) {
                     Text("Oily")
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .offset(y: 10)
                 }
                 NavigationLink(destination: q2()) {
                     Text("Combination")
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .offset(y: 30)
                 }
                 NavigationLink(destination: q2()) {
                     Text("Sensitive")
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .offset(y: 50)
                 }
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity) // Expand the VStack to fill the whole view
