@@ -60,21 +60,33 @@ struct reminder_nav: View {
                 }
                 
                 VStack {
-                    Text("Daily water tracker")
+                    Text("Daily water tracker (cups)")
                         .font(.title2)
                     TextField("", text: $water)
                         .multilineTextAlignment(.center)
-                        .font(.title)
-                        .border(Color.black, width : 1)
+                        .frame(width: 250, height:40)
+                            .border(Color.black, width : 0.5)
+                        .cornerRadius(2.5)
                         .padding()
                     
                     Button("Enter") {
                         textTitle = "You drank \(water) cups of water!"
+                        
         
                     }
+                    .buttonStyle(.bordered)
+                    Image("cup")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 80)
+                        
+                   
                 }
                 
+                
                 }
+            .navigationTitle("Luminosity")
+                .navigationBarTitleDisplayMode(.inline)
             }
         }
     }
