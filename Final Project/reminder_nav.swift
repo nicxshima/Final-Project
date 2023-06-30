@@ -8,13 +8,32 @@
 import SwiftUI
 
 struct reminder_nav: View {
+    @State private var buttonText = "Hi"
     var body: some View {
-        Text("The weather today is")
+        ZStack {
+            Color("Color3").edgesIgnoringSafeArea(.all)
+            VStack {
+                Text("The weather today is")
+                    .font(.title2)
+                HStack {
+                    Text(buttonText)
+                    Button(action: {
+                        buttonText = "Hi"}) {
+                            Text("bye")
+                        }
+                    
+                }
+            }
+        }
     }
-}
-
-struct reminder_nav_Previews: PreviewProvider {
-    static var previews: some View {
-        reminder_nav()
+    
+    
+    
+    
+    
+    struct reminder_nav_Previews: PreviewProvider {
+        static var previews: some View {
+            reminder_nav()
+        }
     }
 }
