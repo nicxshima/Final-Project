@@ -67,15 +67,32 @@ struct ContentView: View {
             }
             .navigationTitle("Luminosity")
             .navigationBarTitleDisplayMode(.inline)
+            Text("Question 1 / 5")
+                .padding()
+            Spacer()
+            Text("What is your skin type?")
+                .font(.title)
+                .padding()
+            Spacer()
+            
+            
             
             
         }
         
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+}
+
+
+
+    
+    
+    
 }
