@@ -7,8 +7,6 @@
 
 import SwiftUI
 
-import SwiftUI
-
 func today_date () -> String{
         let currentDate = Date()
         let dateFormatter = DateFormatter()
@@ -16,8 +14,6 @@ func today_date () -> String{
         dateFormatter.timeStyle = .none
         
         return dateFormatter.string(from: currentDate)
-//            .font(.title)
-//            .padding() as! String
 }
 
 func print_notes (notes_array: [String]) -> () {
@@ -116,9 +112,7 @@ struct journal_nav: View {
                             .font(.headline)
                         
                 }
-//                    Spacer()
                 }
-//
                 Spacer()
             }
             .padding()
