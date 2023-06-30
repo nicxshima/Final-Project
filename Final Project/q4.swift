@@ -20,7 +20,7 @@ struct q4: View {
                     .offset(y: -200)
                     .padding()
                 
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: q5()) {
                     Text("$ ($1 - $25)")
                         .font(.body)
                         .foregroundColor(Color.black)
@@ -29,26 +29,26 @@ struct q4: View {
                         
                 }
                 .frame(height : 10)
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: q5()) {
                     Text("$$ ($25 and up)")
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
                         .offset(y: -10)
                         
                 }
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: q5()) {
                     Text("In between")
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
                         .offset(y: 10)
                 }
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: q5()) {
                     Text("I don't know")
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
                         .offset(y: 30)
                 }
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: q5()) {
                     Text("No Budget!")
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)

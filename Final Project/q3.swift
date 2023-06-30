@@ -20,7 +20,7 @@ struct q3: View {
                     .offset(y: -200)
                     .padding()
                 
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: q4()) {
                     Text("One")
                         .font(.body)
                         .foregroundColor(Color.black)
@@ -29,26 +29,26 @@ struct q3: View {
                         
                 }
                 .frame(height : 10)
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: q4()) {
                     Text("Two")
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
                         .offset(y: -10)
                         
                 }
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: q4()) {
                     Text("Three")
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
                         .offset(y: 10)
                 }
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: q4()) {
                     Text("Four")
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
                         .offset(y: 30)
                 }
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: q4()) {
                     Text("5 or more")
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)

@@ -12,7 +12,7 @@ struct q2: View {
                     .offset(y: -200)
                     .padding()
                 
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: q3()) {
                     Text("Dull Skin")
                         .font(.body)
                         .foregroundColor(Color.black)
@@ -21,26 +21,26 @@ struct q2: View {
                         
                 }
                 .frame(height : 10)
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: q3()) {
                     Text("Acne")
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
                         .offset(y: -10)
                         
                 }
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: q3()) {
                     Text("Hyperpigmentation")
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
                         .offset(y: 10)
                 }
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: q3()) {
                     Text("Dry, flaky skin")
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
                         .offset(y: 30)
                 }
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: q3()) {
                     Text("Redness")
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
