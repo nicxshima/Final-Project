@@ -32,6 +32,10 @@ struct skinquiz_nav: View {
             Text("Sensitive")
                 .padding(6)
                 .border(Color.green, width: 2)
+                Button("Next") {
+                   
+                
+            }
         } 
     }
     
