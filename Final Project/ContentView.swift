@@ -70,29 +70,7 @@ struct ContentView: View {
             
             
             
-            Text("Question 1 / 5")
-                .padding()
-            Spacer()
-            Text("What is your skin type?")
-                .font(.title)
-                .padding()
-            Spacer()
-            VStack {
-                Text("Dry")
-                    .padding(6)
-                    .border(Color.green, width: 2)
-                Text("Normal")
-                    .padding(6)
-                    .border(Color.green, width : 2)
-                Text("Oily")
-                    .padding(6)
-                    .border(Color.green, width: 2)
-                Text("Combination")
-                    .padding(6)
-                    .border(Color.green, width: 2)
-                Text("Sensitive")
-                    .padding(6)
-                    .border(Color.green, width: 2)
+            
                 
                 
                 
@@ -117,4 +95,4 @@ struct ContentView_Previews: PreviewProvider {
     
     
     
-}
+
