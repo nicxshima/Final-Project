@@ -67,6 +67,9 @@ struct ContentView: View {
             }
             .navigationTitle("Luminosity")
             .navigationBarTitleDisplayMode(.inline)
+            
+            
+            
             Text("Question 1 / 5")
                 .padding()
             Spacer()
@@ -74,7 +77,26 @@ struct ContentView: View {
                 .font(.title)
                 .padding()
             Spacer()
-            
+            VStack {
+                Text("Dry")
+                    .padding(6)
+                    .border(Color.green, width: 2)
+                Text("Normal")
+                    .padding(6)
+                    .border(Color.green, width : 2)
+                Text("Oily")
+                    .padding(6)
+                    .border(Color.green, width: 2)
+                Text("Combination")
+                    .padding(6)
+                    .border(Color.green, width: 2)
+                Text("Sensitive")
+                    .padding(6)
+                    .border(Color.green, width: 2)
+                
+                
+                
+                
             
             
             
