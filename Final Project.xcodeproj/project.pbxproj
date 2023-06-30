@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9454D0702A4E30970066F200 /* home_nav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9454D06F2A4E30970066F200 /* home_nav.swift */; };
+		9454D08E2A4E8A5E0066F200 /* journal_nav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9454D08D2A4E8A5E0066F200 /* journal_nav.swift */; };
 		CD326AD52A4B8D47008FBD1F /* Final_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD326AD42A4B8D47008FBD1F /* Final_ProjectApp.swift */; };
 		CD326AD72A4B8D47008FBD1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD326AD62A4B8D47008FBD1F /* ContentView.swift */; };
 		CD326AD92A4B8D50008FBD1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD326AD82A4B8D50008FBD1F /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		9454D06F2A4E30970066F200 /* home_nav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home_nav.swift; sourceTree = "<group>"; };
+		9454D08D2A4E8A5E0066F200 /* journal_nav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journal_nav.swift; sourceTree = "<group>"; };
 		CD326AD12A4B8D47008FBD1F /* Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD326AD42A4B8D47008FBD1F /* Final_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectApp.swift; sourceTree = "<group>"; };
 		CD326AD62A4B8D47008FBD1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				CD326AD82A4B8D50008FBD1F /* Assets.xcassets */,
 				CD326ADA2A4B8D50008FBD1F /* Preview Content */,
 				9454D06F2A4E30970066F200 /* home_nav.swift */,
+				9454D08D2A4E8A5E0066F200 /* journal_nav.swift */,
 			);
 			path = "Final Project";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				9454D0702A4E30970066F200 /* home_nav.swift in Sources */,
 				CD326AD72A4B8D47008FBD1F /* ContentView.swift in Sources */,
 				CD326AD52A4B8D47008FBD1F /* Final_ProjectApp.swift in Sources */,
+				9454D08E2A4E8A5E0066F200 /* journal_nav.swift in Sources */,
 				CD326B3D2A4E6BDC008FBD1F /* skinquiz_nav.swift in Sources */,
 				CD326B3F2A4E6D33008FBD1F /* reminder_nav.swift in Sources */,
 			);
