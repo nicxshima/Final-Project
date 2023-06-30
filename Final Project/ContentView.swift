@@ -42,7 +42,8 @@ struct ContentView: View {
                         .foregroundColor(Color(hue: 0.653, saturation: 0.889, brightness: 0.366))
                     TextField("", text: $name)
                         .multilineTextAlignment(.center)
-                        .border(Color.blue, width : 0.5)
+                        .frame(width: 250, height:40)
+                            .border(Color.blue, width : 0.5)
                         .cornerRadius(2.5)
                         .padding()
                     Button("Submit Name"){
@@ -58,7 +59,7 @@ struct ContentView: View {
                         .flatMap { ($0 as? UIWindowScene)?.windows ?? [] }
                         .first { $0.isKeyWindow }
 
-                        window?.rootViewController = UIHostingController(rootView: home_nav())
+                        window?.rootViewController = UIHostingController(rootView: home_nav(name_: name))
                             window?.makeKeyAndVisible()
                     }
                     .buttonStyle(.bordered)

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct home_nav: View {
+    var name_: String
+
     var body: some View {
         ZStack {
             Color("Color1")
@@ -24,7 +26,7 @@ struct home_nav: View {
                     .cornerRadius(80)
                     .frame(width: 150)
 
-                Text("Welcome [Username]!")
+                Text("Welcome \(name_)!")
                     .font(.headline)
                     .fontWeight(.bold)
                     .padding()
@@ -81,12 +83,5 @@ struct home_nav: View {
                 Spacer()
             }
         }
-    }
-}
-
-
-struct home_nav_Previews: PreviewProvider {
-    static var previews: some View {
-        home_nav()
     }
 }
