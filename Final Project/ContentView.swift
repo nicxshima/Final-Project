@@ -13,20 +13,20 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color(red: 255.0, green: 237.0, blue: 225.0)
+                Color("Color1").edgesIgnoringSafeArea(.all)
                 VStack(spacing: 25.0) {
                     HStack() {
                         VStack {
                             Text("Hi")
                                 .font(.largeTitle)
                                 .fontWeight(.bold)
-                                .foregroundColor(Color(hue: 0.653, saturation: 0.889, brightness: 0.366))
+                                .foregroundColor(Color("Color5"))
                                 .multilineTextAlignment(.leading)
                             Text("         There!")
                                 .font(.largeTitle)
                                 .fontWeight(.bold)
-                                .foregroundColor(Color(hue: 0.653, saturation: 0.889, brightness: 0.366))
-                        }
+                                .foregroundColor(Color(("Color5"))
+                                )}
                         Image("leaf")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
@@ -35,15 +35,15 @@ struct ContentView: View {
                     }
                     Text("Grow from your glow")
                         .font(.headline)
-                        .foregroundColor(Color(hue: 0.561, saturation: 0.433, brightness: 0.931))
+                        .foregroundColor(Color(hue: 0.539, saturation: 0.449, brightness: 0.97))
                         .multilineTextAlignment(.center)
                     Text("What is your name?")
                         .font(.title2)
-                        .foregroundColor(Color(hue: 0.653, saturation: 0.889, brightness: 0.366))
+                        .foregroundColor(Color("Color5"))
                     TextField("", text: $name)
                         .multilineTextAlignment(.center)
                         .frame(width: 250, height:40)
-                            .border(Color.blue, width : 0.5)
+                            .border(Color.black, width : 0.5)
                         .cornerRadius(2.5)
                         .padding()
                     Button("Submit Name"){
