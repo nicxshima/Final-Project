@@ -21,7 +21,6 @@ struct journal_nav: View {
     @State private var is_there_notes = false
     @State private var note_context = ""
     @State private var note_prompt_vis = false
-    
     @State private var home_nav_ = false
     
     var body: some View {

@@ -16,6 +16,7 @@ struct skinquiz_nav: View {
             .font(.title)
             .padding()
         Spacer()
+
         VStack {
             Text("Dry")
                 .padding(6)
@@ -32,8 +33,7 @@ struct skinquiz_nav: View {
             Text("Sensitive")
                 .padding(6)
                 .border(Color.green, width: 2)
-                Button("Next") {
-                   
+                Button("Next") { 
                 
             }
         } 

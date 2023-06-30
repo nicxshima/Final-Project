@@ -16,6 +16,7 @@ struct home_nav: View {
             ZStack {
                 Color("Color1")
                     .edgesIgnoringSafeArea(.all)
+
                     VStack {
                         Text("Luminosity")
                             .font(.headline)

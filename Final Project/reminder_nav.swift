@@ -13,9 +13,11 @@ struct reminder_nav: View {
     @State private var showInfo2 = false
     @State private var water = ""
     @State private var textTitle = "Daily water tracker"
+
     var body: some View {
         ZStack {
             Color("Color3").edgesIgnoringSafeArea(.all)
+
             VStack(spacing: 15.0) {
                 Text("The weather today is")
                     .font(.title2)
@@ -71,8 +73,6 @@ struct reminder_nav: View {
                     
                     Button("Enter") {
                         textTitle = "You drank \(water) cups of water!"
-                        
-        
                     }
                     .buttonStyle(.bordered)
                     Spacer()
@@ -81,8 +81,6 @@ struct reminder_nav: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 70)
-                        
-                   
                 }
                 
                 
@@ -92,14 +90,8 @@ struct reminder_nav: View {
             }
         }
     }
-    
-    
-    
-    
-    
     struct reminder_nav_Previews: PreviewProvider {
         static var previews: some View {
             reminder_nav()
         }
     }
-

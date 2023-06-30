@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var name = ""
     @State private var textTitle = "What is your name?"
+
     var body: some View {
         NavigationStack {
             ZStack {
@@ -31,7 +32,6 @@ struct ContentView: View {
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(width: 130)
-                        
                     }
                     Text("Grow from your glow")
                         .font(.headline)
@@ -67,17 +67,6 @@ struct ContentView: View {
             }
             .navigationTitle("Luminosity")
             .navigationBarTitleDisplayMode(.inline)
-            
-            
-            
-            
-                
-                
-                
-                
-            
-            
-            
         }
         
     }
@@ -89,10 +78,3 @@ struct jounral_nav_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-
-
-    
-    
-    
-
