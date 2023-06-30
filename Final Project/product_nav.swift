@@ -9,9 +9,30 @@ import SwiftUI
 
 struct product_nav: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.gray
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                
+                Spacer()
+                
+                Text("Day Routine ☀️")
+                    .font(.title)
+                    .fontWeight(.medium)
+                    .padding()
+
+                Text("Night Routine ")
+                    .font(.title)
+                    .fontWeight(.medium)
+                    .padding()
+                
+                Spacer()
+            }
+        }
     }
 }
+
 
 struct product_nav_Previews: PreviewProvider {
     static var previews: some View {

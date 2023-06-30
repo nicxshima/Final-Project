@@ -28,10 +28,14 @@ struct home_nav: View {
                             .cornerRadius(80)
                             .frame(width: 150)
                         
+                        Spacer()
+                        
                         Text("Welcome \(name_)!")
                             .font(.headline)
                             .fontWeight(.bold)
                             .padding()
+                        
+                        Spacer()
                         
                         NavigationLink(destination: skinquiz_nav()) {
                             Text("Skin Quiz")
@@ -43,7 +47,7 @@ struct home_nav: View {
                         }
                         .padding()
                         
-                        NavigationLink(destination: reminder_nav()) {
+                        NavigationLink(destination: product_nav()) {
                             Text("Products")
                                 .foregroundColor(.black)
                                 .font(.headline)
@@ -72,6 +76,8 @@ struct home_nav: View {
                                 .cornerRadius(10)
                         }
                         .padding()
+                        
+                        Spacer()
                     }
                     Spacer()
                 }

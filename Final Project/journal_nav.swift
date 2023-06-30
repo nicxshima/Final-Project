@@ -16,12 +16,6 @@ func today_date () -> String{
         return dateFormatter.string(from: currentDate)
 }
 
-func print_notes (notes_array: [String]) -> () {
-    for n in notes_array {
-        print(n)
-    }
-}
-
 struct journal_nav: View {
     @State private var all_notes = [String]()
     @State private var is_there_notes = false
@@ -38,10 +32,9 @@ struct journal_nav: View {
             VStack {
                 Text(today_date())
                     .font(.title)
+                    .fontWeight(.medium)
                     .multilineTextAlignment(.center)
-                
-                Spacer()
-                
+                    .padding()
                 Text("safe space ♡")
                     .foregroundColor(.black)
                     .fontWeight(.medium)
