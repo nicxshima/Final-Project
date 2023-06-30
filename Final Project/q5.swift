@@ -20,7 +20,7 @@ struct q5: View {
                     .offset(y: -200)
                     .padding()
                 
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: product_nav()) {
                     Text("Mineral")
                         .font(.body)
                         .foregroundColor(Color.black)
@@ -29,20 +29,20 @@ struct q5: View {
                         
                 }
                 .frame(height : 10)
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: product_nav()) {
                     Text("Chemical")
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
                         .offset(y: -10)
                         
                 }
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: product_nav()) {
                     Text("Tinted")
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)
                         .offset(y: 10)
                 }
-                NavigationLink(destination: q2()) {
+                NavigationLink(destination: product_nav()) {
                     Text("Any is fine!")
                         .foregroundColor(Color.black)
                         .multilineTextAlignment(.center)

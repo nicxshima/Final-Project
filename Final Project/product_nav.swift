@@ -21,7 +21,7 @@ struct product_nav: View {
                     .font(.title)
                     .fontWeight(.medium)
                     .padding()
-
+                
                 Text("Night Routine ")
                     .font(.title)
                     .fontWeight(.medium)
@@ -29,13 +29,15 @@ struct product_nav: View {
                 
                 Spacer()
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity) // Expand the VStack to fill the whole view
+            .background(Color("Color3").ignoresSafeArea()) // Set the background color and ignore safe area insets
         }
     }
-}
-
-
-struct product_nav_Previews: PreviewProvider {
-    static var previews: some View {
-        product_nav()
+    
+    
+    struct product_nav_Previews: PreviewProvider {
+        static var previews: some View {
+            product_nav()
+        }
     }
 }
