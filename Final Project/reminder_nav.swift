@@ -75,10 +75,12 @@ struct reminder_nav: View {
         
                     }
                     .buttonStyle(.bordered)
+                    Spacer()
+                        .frame(height: 25)
                     Image("cup")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 80)
+                        .frame(width: 70)
                         
                    
                 }
