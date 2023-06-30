@@ -1,47 +1,41 @@
-//
-//  skinquiz_nav.swift
-//  Final Project
-//
-//  Created by Nicole Shimamoto on 6/29/23.
-//
-
 import SwiftUI
 
 struct skinquiz_nav: View {
     var body: some View {
-        Text("Question 1 / 5")
-            .padding()
-        Spacer()
-        Text("What is your skin type?")
-            .font(.title)
-            .padding()
-        Spacer()
-
-        VStack {
-            Text("Dry")
-                .padding(6)
-                .border(Color.green, width: 2)
-            Text("Normal")
-                .padding(6)
-                .border(Color.green, width : 2)
-            Text("Oily")
-                .padding(6)
-                .border(Color.green, width: 2)
-            Text("Combination")
-                .padding(6)
-                .border(Color.green, width: 2)
-            Text("Sensitive")
-                .padding(6)
-                .border(Color.green, width: 2)
-                Button("Next") { 
+        NavigationStack {
+            VStack() {
+                Text("Question 1 / 5")
+                    .padding()
+                Text("What is your skin type?")
+                    .font(.title)
+                    .padding()
                 
+                NavigationLink(destination: q2()) {
+                    Text("Dry")
+                }
+                .frame(height : 10)
+                NavigationLink(destination: q2()) {
+                    Text("Normal")
+                }
+                NavigationLink(destination: q2()) {
+                    Text("Oily")
+                }
+                NavigationLink(destination: q2()) {
+                    Text("Combination")
+                }
+                NavigationLink(destination: q2()) {
+                    Text("Sensitive")
+                }
             }
-        } 
-    }
-    
-    struct skinquiz_nav_Previews: PreviewProvider {
-        static var previews: some View {
-            skinquiz_nav()
+            .frame(maxWidth: .infinity, maxHeight: .infinity) // Expand the VStack to fill the whole view
+            .background(Color("Color1").ignoresSafeArea()) // Set the background color and ignore safe area insets
         }
     }
+    
 }
+struct skinquiz_nav_Previews: PreviewProvider {
+    static var previews: some View {
+        skinquiz_nav()
+    }
+}
+
