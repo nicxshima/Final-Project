@@ -16,6 +16,7 @@
 		CD326AF02A4B8D51008FBD1F /* Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD326AEF2A4B8D51008FBD1F /* Final_ProjectUITests.swift */; };
 		CD326AF22A4B8D51008FBD1F /* Final_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD326AF12A4B8D51008FBD1F /* Final_ProjectUITestsLaunchTests.swift */; };
 		CD326B3D2A4E6BDC008FBD1F /* skinquiz_nav.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD326B3C2A4E6BDC008FBD1F /* skinquiz_nav.swift */; };
+		CD326B3F2A4E6D33008FBD1F /* reminder_nav.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD326B3E2A4E6D33008FBD1F /* reminder_nav.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		CD326AEF2A4B8D51008FBD1F /* Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		CD326AF12A4B8D51008FBD1F /* Final_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CD326B3C2A4E6BDC008FBD1F /* skinquiz_nav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skinquiz_nav.swift; sourceTree = "<group>"; };
+		CD326B3E2A4E6D33008FBD1F /* reminder_nav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminder_nav.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				CD326AD42A4B8D47008FBD1F /* Final_ProjectApp.swift */,
 				CD326AD62A4B8D47008FBD1F /* ContentView.swift */,
+				CD326B3E2A4E6D33008FBD1F /* reminder_nav.swift */,
 				CD326B3C2A4E6BDC008FBD1F /* skinquiz_nav.swift */,
 				CD326AD82A4B8D50008FBD1F /* Assets.xcassets */,
 				CD326ADA2A4B8D50008FBD1F /* Preview Content */,
@@ -267,6 +270,7 @@
 				CD326AD72A4B8D47008FBD1F /* ContentView.swift in Sources */,
 				CD326AD52A4B8D47008FBD1F /* Final_ProjectApp.swift in Sources */,
 				CD326B3D2A4E6BDC008FBD1F /* skinquiz_nav.swift in Sources */,
+				CD326B3F2A4E6D33008FBD1F /* reminder_nav.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
